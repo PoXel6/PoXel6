@@ -3,11 +3,10 @@
 ## About Me
 <p align="start">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Jetbrains+Mono&weight=600&letterSpacing=mono&pause=1000&multiline=true&repeat=false&width=600&lines=Welcome+to+my+GitHub+Profile!;I+am+poxel69;Full+Stack+Developer+and+Tech+Enthusiast." alt="Typing Effect" />
+    <img src="https://readme-typing-svg.demolab.com?font=Jetbrains+Mono&weight=600&letterSpacing=mono&pause=1000&multiline=true&repeat=false&width=600&lines=Welcome+to+my+GitHub+Profile!;I+am+poxel6;Full+Stack+Developer+and+Tech+Enthusiast." alt="Typing Effect" />
   </a>
 </p>
 <p align="center">
-Coding, hacking, and exploring technology are my passions,</br> and this is my GitHub profile where I showcase my projects and ideas!
 </p>
 
 ---
@@ -16,7 +15,7 @@ Coding, hacking, and exploring technology are my passions,</br> and this is my G
 
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=PoXel69&show_icons=true&theme=catppuccin_mocha" alt="My Github Stats" />
+    <img src="https://github-readme-stats.vercel.app/api?username=poxel6&show_icons=true&theme=catppuccin_mocha" alt="My Github Stats" />
   </a>
 </p>
 
@@ -24,7 +23,7 @@ Coding, hacking, and exploring technology are my passions,</br> and this is my G
 
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=PoXel69&show_icons=true&layout=compact&theme=catppuccin_mocha&hide=shell" alt="Top Languages" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=poxel6&show_icons=true&layout=compact&theme=catppuccin_mocha&hide=shell" alt="Top Languages" />
   </a>
 </p>
 
