@@ -1,6 +1,5 @@
 # Welcome to My GitHub Profile! 👋
 
-## About Me
 <p align="start">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Jetbrains+Mono&weight=600&letterSpacing=mono&pause=1000&multiline=true&repeat=false&width=600&lines=Welcome+to+my+GitHub+Profile!;I+am+poxel6;Full+Stack+Developer+and+Tech+Enthusiast." alt="Typing Effect" />
