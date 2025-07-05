@@ -12,7 +12,7 @@ Loves shiny objects; but it's not a syndrome.
 
 Fascinated by technology.
 
-scared of so called women (known as females, idk)
+Scared of so called women (known as females, idk)
 ## Stats 📊
  
 
