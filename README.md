@@ -1,5 +1,18 @@
-### I don't know how it works.
+## I don't know how it works.
 
+Senior buzz word user.
+
+Editor wars veteran.
+
+Sex !haver. (I use Arch, BTW)
+
+Masters in AI complexity and complaining at Hallucinations Uni.
+
+Loves shiny objects; but it's not a syndrome.
+
+Fascinated by technology.
+
+scared of so called women (known as females, idk)
 ## Stats 📊
  
 
