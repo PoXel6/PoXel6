@@ -6,7 +6,7 @@ Editor wars veteran.
 
 Sex !haver. (I use Arch, BTW)
 
-Masters in AI complexity and complaining at Hallucinations Uni.
+Masters in AI complexity and complaining, at Hallucinations Uni.
 
 Loves shiny objects; but it's not a syndrome.
 
