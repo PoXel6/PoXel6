@@ -1,4 +1,4 @@
-## I don't know how it works.
+# I don't know how it works.
 
 Senior buzz word user.
 
@@ -13,7 +13,7 @@ Loves shiny objects; but it's not a syndrome.
 Fascinated by technology.
 
 Scared of so called women (known as females, idk)
-## Stats 📊
+# Stats 📊
  
 
  
@@ -25,7 +25,7 @@ Scared of so called women (known as females, idk)
  
 
  
-## Most Used Languages 💻
+# Most Used Languages 💻
  
 
  
