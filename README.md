@@ -1,6 +1,6 @@
 # I don't know how it works.
 
-Senior buzz word user.
+Senior BuzzWord Developer.
 
 Editor wars veteran.
 
