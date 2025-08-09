@@ -12,6 +12,8 @@ Loves shiny objects; but it's not a syndrome.
 
 Fascinated by technology.
 
+Admires complexity and complains about simplicity.
+
 Scared of so called women (known as females, idk)
 # Stats 📊
  
