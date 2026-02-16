@@ -1,20 +1,24 @@
 # I don't know how it works.
 
+Cringe lord.
+
 Senior BuzzWord Developer.
 
 Editor wars veteran.
 
-Sex !haver. (I use Arch, BTW)
+Sex !haver.
 
-Masters in AI complexity and complaining, at Hallucinations Uni.
+I use Arch, BTW.
+
+Able to hillucinate without AI assistance.
 
 Loves shiny objects; but it's not a syndrome.
 
-Fascinated by technology.
+Fascinated by technology; Too dumb to understand it.
 
 Admires complexity and complains about simplicity.
 
-Scared of so called women (known as females, idk)
+Scared of so called women.
 # Stats 📊
  
 
