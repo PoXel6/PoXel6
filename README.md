@@ -2,11 +2,9 @@
 
 Cringe lord.
 
-Senior BuzzWord Developer.
-
 Editor wars veteran.
 
-Sex !haver.
+!(Sex haver).
 
 I use Arch, BTW.
 
@@ -18,7 +16,7 @@ Fascinated by technology; Too dumb to understand it.
 
 Admires complexity and complains about simplicity.
 
-Scared of so called women.
+Scared of women.
 # Stats 📊
  
 
