@@ -29,7 +29,7 @@ Scared of women.
  
 
  
-# Most Used Languages 💻
+# Languages 💻
  
 
  
