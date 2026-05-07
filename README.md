@@ -1,12 +1,11 @@
+it is so fun.
 # I don't know how it works.
 
 Cringe lord.
 
 Editor wars veteran.
 
-!(Sex haver).
-
-I use Arch, BTW.
+I (used to) use Arch, BTW.
 
 Able to hillucinate without AI assistance.
 
@@ -16,7 +15,9 @@ Fascinated by technology; Too dumb to understand it.
 
 Admires complexity and complains about simplicity.
 
-Scared of women.
+MATHochist
+
+Scared of ladies.
 # Stats 📊
  
 

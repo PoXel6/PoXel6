@@ -1,0 +1,107 @@
+contacts:
+  name: (Amir) Abbas Soufi Doost
+  title: Junior Software Engineer
+  email: iampoxel6@gmail.com
+  address: "Mashhad, Iran"
+  location: Iran
+  github:
+    url: https://github.com/PoXel6
+    displayText: "@PoXel6"
+  website:
+    url: https://poxel6.github.io
+    displayText: poxel6.github.io
+
+position: Junior Software Engineer
+
+tagline: Junior Software engineer with 2 years of experience and a strong foundation in computer science, and a natural problem-solver.  Proficient in Java, Kotlin, JavaScript/TypeScript, and Rust with a solid understanding of system architecture and design principles.
+
+jobs:
+  - position: Quality Assurance Intern
+    company:
+      name: CodeFix Labs
+      link: "https://codefixlabs.com/"
+    product:
+      name: TestSuite Pro
+      link: https://testsuitepro.com
+    description:
+      - Assisted in testing software applications for functionality and usability, reporting bugs and feedback.
+      - Gained experience in automated testing frameworks to improve product quality.
+    from: "2019 Jan."
+    to: "2019 Dec."
+    tags:
+      - Quality Assurance
+      - Testing
+      - Automation
+    location: Austin, USA
+
+objective: Seeking to advance my skills and build a strong career with a company that values innovation and creativity.
+
+projects:
+  - name: "jLox"
+    from: "March 2026"
+    to: "July 2026"
+    description: "A simple Lox interpreter written in java. Parsing is powered by Recursive-Decent. It leverages Visitor Design Pattern and a custom meta-programming script to generate it's AST. It follows SOLID, DRY, and YAGNI principles."
+    stack: "Java, Gradle, Meta Programming, Design Patterns, Intellij IDEA"
+
+education:
+  - place:
+      name: Mashhad, Azad University
+      link: ""
+    degree: B.Sc.
+    major: Computer Science
+    track: Computer Science
+    from: "2025"
+    to: "present"
+    location: Mashhad, Iran
+  - place:
+      name: Technical College
+      link: ""
+    degree: Diploma
+    major: Multimedia Design
+    track: Multimedia Design
+    from: "2023"
+    to: "2025"
+    location: Mashhad, Iran
+
+technical_expertise:
+  - name: Java
+    level: 5
+  - name: Kotlin
+    level: 4
+  - name: JavaScript/TypeScript
+    level: 4
+  - name: Rust
+    level: 3
+  - name: Python
+    level: 3
+  - name: Git
+    level: 4
+
+skills:
+  - Java
+  - Kotlin
+  - JavaScript/TypeScript
+  - Python
+  - Rust
+  - Docker
+  - Git
+  - Bash
+
+methodology:
+  - Lean
+  - Kanban
+  - Clean Code
+  - Clean Architecture
+  - Design Thinking
+  - Test-Driven Development
+  - Performance Aware Programming
+
+tools:
+  - GitHub
+  - NeoVim
+  - IntelliJ IDEA
+  - Gradle
+  - Photoshop
+  - CUrl
+  - Postman
+  - Gnu/Linux
