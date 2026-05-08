@@ -1,5 +1,5 @@
 <p align="center">
-  <img height=600 src="./assets/hello-there-gradient.png" alt="hello there picture with a beautiful gradient created by me." />
+  <img height=400 width=700 src="./assets/hello-there-gradient.png" alt="hello there picture with a beautiful gradient created by me." />
 </p> 
 
 My favorite hobby is reading random people's GitHub README, but <br> 
