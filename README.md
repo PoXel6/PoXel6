@@ -1,5 +1,6 @@
-
-
+<p align="center">
+  <img height=600 src="./assets/hello-there-gradient.png" alt="hello there picture with a beautiful gradient created by me." />
+</p> 
 
 My favorite hobby is reading random people's GitHub README, but <br> 
 I also like to listen to bad music, do some graphics and play games. and <br>
@@ -33,9 +34,7 @@ Scared of ladies.
 
  
 <p align="start">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats-fast.vercel.app/api/?username=poxel6&show_icons=true&theme=tokyonight&card_width=500" alt="My Github Stats" />
-  </a>
+  <img src="https://github-readme-stats-fast.vercel.app/api/?username=poxel6&show_icons=true&theme=tokyonight&card_width=500" alt="My Github Stats" />
 </p>
  
 
@@ -45,8 +44,6 @@ Scared of ladies.
 
  
 <p align="start">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=poxel6&show-icons=true&layout=compact&theme=tokyonight&card_width=500" alt="My Github Stats" 
-  </a>
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=poxel6&show-icons=true&layout=compact&theme=tokyonight&card_width=500" alt="My Github Stats" 
 </p>
  
