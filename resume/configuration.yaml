@@ -1,15 +1,16 @@
 contacts:
-  name: (Amir) Abbas Soufi Doost
+  name: Amir
+  lastName: Soufi Doost
   title: Junior Software Engineer
   email: iampoxel6@gmail.com
   address: "Mashhad, Iran"
   location: Iran
   github:
     url: https://github.com/PoXel6
-    displayText: "@PoXel6"
-  website:
-    url: https://poxel6.github.io
-    displayText: poxel6.github.io
+    displayText: "github.com/poxel6"
+  exp:
+    url: https://poxel6.github.io/PoXel6
+    displayText: "2+ years experience"
 
 position: Junior Software Engineer
 
@@ -37,11 +38,18 @@ jobs:
 objective: Seeking to advance my skills and build a strong career with a company that values innovation and creativity.
 
 projects:
-  - name: "jLox"
+  - name: "JLOX"
     from: "March 2026"
     to: "July 2026"
-    description: "A simple Lox interpreter written in java. Parsing is powered by Recursive-Decent. It leverages Visitor Design Pattern and a custom meta-programming script to generate it's AST. It follows SOLID, DRY, and YAGNI principles."
-    stack: "Java, Gradle, Meta Programming, Design Patterns, Intellij IDEA"
+    link: "https://github.com/PoXel6/jlox.git"
+    description: "Lox interpreter written in java. Parsing is powered by Recursive-Decent. It leverages Visitor Design Pattern and a custom meta-programming script to generate it's AST. It follows SOLID, DRY, and YAGNI principles."
+    stack: "Java, Gradle, Intellij IDEA, Meta Programming, Design Patterns, Intellij IDEA"
+  - name: "NEWJ"
+    from: "July 2025"
+    to: "Oct 2025"
+    link: "https://github.com/PoXel6/newj.git"
+    description: "Simple CLI tool to generate Java project structure. has Gradle dependency presets for different application. currently has: Minecraft, Simple, Spring. Hydrates generated files with templates. sane and configurable defaults."
+    stack: "Rust, Cargo, NVim, Clip-rs, proc-macros, Performance Aware Programming"
 
 education:
   - place:
@@ -68,11 +76,11 @@ technical_expertise:
     level: 5
   - name: Kotlin
     level: 4
-  - name: JavaScript/TypeScript
+  - name: JavaScript
+    level: 5
+  - name: TypeScript
     level: 4
   - name: Rust
-    level: 3
-  - name: Python
     level: 3
   - name: Git
     level: 4
@@ -80,12 +88,13 @@ technical_expertise:
 skills:
   - Java
   - Kotlin
-  - JavaScript/TypeScript
-  - Python
   - Rust
   - Docker
   - Git
+  - JavaScript/TypeScript
+  - Python
   - Bash
+  - typst
 
 methodology:
   - Lean

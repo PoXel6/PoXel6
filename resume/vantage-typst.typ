@@ -1,5 +1,6 @@
-#let primary_colour = rgb("#3730a3")
+#let primary_colour = rgb("#000000")
 #let link_colour = rgb("#12348e")
+#set text(font: "Times New Roman")
 
 #let icon(name, shift: 1.5pt) = {
   box(
@@ -10,22 +11,53 @@
   h(3pt)
 }
 
-#let findMe(services) = {
-  set text(8pt)
-  let icon = icon.with(shift: 2.5pt)
+#let beautify(content, size: 20pt, vert: -10pt) = {
+  set text(
+    fill: white,
+    weight: "medium",
+    size
+  )
 
-  services.map(service => {
-      icon(service.name)
-
-      if "display" in service.keys() {
-        link(service.link)[#{service.display}]
-      } else {
-        link(service.link)
-      }
-    }).join(h(10pt))
-  [
-    
+  box(
+    inset: 4pt,
+    fill: primary_colour,
+  )[
+    #content
   ]
+  v(vert)
+}
+
+#let make(name) = {
+   link(name.link)[#icon(name.name) #name.display]
+}
+
+#let findMe(services) = {
+  set text(11pt)
+  let icon = icon.with(shift: 1pt)
+  let email = services.at(0)
+  let website = services.at(1)
+  let github = services.at(2)
+  let location = services.at(3)
+
+  let left = [
+    #v(10pt)
+    #make(email)
+    #v(10pt)
+    #make(website)
+  ]
+
+  let right = [
+    #v(10pt)
+    #make(github)
+    #v(10pt)
+    #make(location)
+  ]
+  grid(
+    columns: (14fr, 11fr),
+    column-gutter: 25pt,
+    left,
+    right
+  )
 }
 
 #let term(period, location) = {
@@ -84,6 +116,7 @@
 
 #let vantage(
   name: "",
+  lastName: "",
   position: "",
   links: (),
   tagline: [],
@@ -94,23 +127,39 @@
     title: name + "'s CV",
     author: name,
   )
-  set text(9.8pt, font: "PT Sans")
+  set text(9.8pt, font: "Georgia")
   set page(
     margin: (x: 1.2cm, y: 1.2cm),
   )
 
-  show heading.where(level: 1) : it => text(16pt,[#{it.body} #v(1pt)])
-
-  show heading.where(
-    level: 2,
-  ): it => text(
-      fill: primary_colour,
-    [
+  show heading.where(level: 1) : it => box(
+    fill: black,
+    inset: 10pt,
+    text(
+      fill: white,
+      weight: "bold",
+      36pt
+    )[
       #{it.body}
-      #v(-7pt)
-      #line(length: 100%, stroke: 0.5pt + primary_colour)
     ]
   )
+
+  show heading.where(
+    level :2,
+  ): it => {
+    beautify(it.body, size: 16pt, vert: -10pt)
+  }
+
+//  show heading.where(
+//    level: 2,
+//  ): it => text(
+//      fill: primary_colour,
+//    [
+//      #{it.body}
+//      #v(-7pt)
+//      #line(length: 100%, stroke: 0.5pt + primary_colour)
+//    ]
+//  )
 
   show heading.where(
     level: 3
@@ -123,13 +172,21 @@
     it.body
   )
 
-  [= #name]
-  text(12pt, weight: "medium",[#position])
+  grid(
+    columns: (11fr, 13fr),
+    column-gutter: 1em,
+    box()[
+      = #name
+      #v(-17pt)
+      = #lastName
+      #v(-12pt)
+      #text(16pt, weight: "medium",[#position])
+      #v(12pt)
+    ],
+    findMe(links)
+)
 
-  v(0pt)
-  findMe(links)
-
-  tagline
+  v(10pt)
 
   grid(
     columns: (7fr, 4fr),

@@ -1,4 +1,5 @@
 #import "vantage-typst.typ": vantage, term, skill, styled-link
+#set text(font: "Times New Roman")
 #let configuration = yaml("configuration.yaml")
 #let icon(name, shift: 1.5pt) = {
   box(
@@ -6,20 +7,29 @@
     height: 10pt,
     image("icons/" + name + ".svg")
   )
-  h(3pt)
+  h(2pt)
 }
+
+#let text_size = 11pt
 
 #vantage(
   name: configuration.contacts.name,
+  lastName: configuration.contacts.lastName,
+
   position: configuration.position,
   links: (
-    (name: "email", link: "mailto:"+ configuration.contacts.email),
-    (name: "website", link: configuration.contacts.website.url, display: configuration.contacts.website.displayText),
+    (name: "email", link: "mailto:"+ configuration.contacts.email, display: configuration.contacts.email),
+    (name: "exp", link: configuration.contacts.exp.url, display: configuration.contacts.exp.displayText),
     (name: "github", link: configuration.contacts.github.url, display: configuration.contacts.github.displayText),
-    (name: "location", link: "sss", display: configuration.contacts.address)
+    (name: "location", link: "map.google.com", display: configuration.contacts.address)
   ),
+
   tagline: (configuration.tagline),
+
   [
+
+    == About Me
+    #configuration.tagline
 
     //== Experience
 
@@ -35,17 +45,19 @@
 
     == Projects
     #for project in configuration.projects [
-      === #project.name
-      \
-      #icon("calendar") #project.from --- #project.to #h(1fr) #link("https://github.com/PoXel6/jlox.git")[#icon("github") Personal Project]
-      \
-      ==== Description
-      \
+      #text(text_size)[
+        === #project.name
+      ]
+      #v(-5pt)
+      #icon("calendar") #project.from --- #project.to #h(1fr) #link(project.link)[#icon("github") Personal Project]
+
+      #v(0pt)
+      ==== Description:
       #project.description
-      \
-      ==== Tech Stack
-      \
+      #v(0pt)
+      ==== Tech Stack:
       #project.stack
+      #v(8pt)
     ]
     
     == Objective
@@ -61,34 +73,42 @@
       ] else [
         #edu.place.name\
       ]
+      #v(-5pt)
 
-      #edu.from - #edu.to #h(1fr) #edu.location
+      #edu.from - #edu.to #h(1fr) #icon("location") #edu.location
+      #v(-5pt)
 
       #edu.degree in #edu.major
+      #v(8pt)
 
     ]
 
   ],
   [
     == Technical Expertise
-
     #for expertise in configuration.technical_expertise [
+      #set text(
+        14pt,
+      )
       #skill(expertise.name, expertise.level)
     ]
 
-    == Skills/Exposure
+    == Skills
 
     #for skill in configuration.skills [
+      #set text(text_size)
       • #skill
     ]
 
-    == Methodology/Approach
+    == Methodology
     #for method in configuration.methodology [
+      #set text(text_size)
       • #method
     ]
     
     == Tools
     #for tool in configuration.tools [
+      #set text(text_size)
       • #tool
     ]
 
