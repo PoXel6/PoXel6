@@ -44,6 +44,8 @@ Scared of ladies.
 
  
 <p align="start">
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=poxel6&show-icons=true&layout=compact&theme=tokyonight&card_width=500" alt="My Github Stats" 
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=poxel6&show-icons=true&layout=compact&theme=tokyonight&card_width=500" alt="My Github Stats">
 </p>
- 
+<p align="start">
+  <img src="https://skillicons.dev/icons?i=java,rust,kotlin,ts,js&perline=13">
+</p>
