@@ -2,9 +2,7 @@
   <img height=400 width=700 src="./assets/hello-there-gradient.png" alt="hello there picture with a beautiful gradient created by me." />
 </p> 
 
-My favorite hobby is reading random people's GitHub README, but <br> 
-I also like to listen to bad music, do some graphics and play games. and <br>
-when I'm not wasting my time, I code and a little bit of math.
+My favorite hobby is reading random people's GitHub README.
 
 # I don't know how it works.
 
@@ -13,17 +11,17 @@ I use Arch, BTW.
 
 Editor wars veteran.
 
-Never spotted in the same room as The Batman.
+Never was I spotted in the same room as The Batman.
 
-MATHochist (Mathing with Typst)
+MATHoholic (Mathing with Typst)
 
-Able to hillucinate without AI assistance.
+Able to hillucinate without AI.
 
-Fascinated by technology; Too dumb to understand it.
+Fascinated by technology; Too grub brained to understand it.
 
-Gell-Mann Amnesia? sounds like lotta fun.
+Gell-Mann Amnesia? that can't be right.
 
-Admires complexity and complains about simplicity.
+Admires complexity, hates simplicity.
 
 Loves shiny objects; but it's not a syndrome.
 
