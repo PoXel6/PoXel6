@@ -8,7 +8,7 @@
    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Iosevka+Charon&size=24&duration=1000&pause=1000&center=true&vCenter=true&multiline=true&width=300&height=100&lines=I+hate+when;people+do+something;like+this+in+their+GitHub." alt="Typing SVG" /></a>
 </p>
 
- 😉 About Me
+ About Me 😉
  ---
  ```bf
  ++++++++++[>++++++++++<-]>+++++.
@@ -26,7 +26,7 @@
 >++++++++++[<++++++++++>-]<+.
 ```
 
-# I don't know how it works.
+# I don't know how it works. 😭
 
 ### I use Arch, BTW.
 > Ables me to use stripe api on my socks.
@@ -84,16 +84,34 @@
 <p align="start">
   <img src="https://github-readme-stats-fast.vercel.app/api/?username=poxel6&show_icons=true&theme=tokyonight&card_width=500" alt="My Github Stats" />
 </p>
- 
-
- 
-# Languages 💻
- 
-
- 
 <p align="start">
   <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=poxel6&show-icons=true&layout=compact&theme=tokyonight&hide=shell&card_width=500" alt="My Github Stats">
 </p>
+ 
+# Languages 💻
+> Blow languages are mostly my interests or basic level familiarities; my actual usages is based on the graph above.
+
+### Low IQ languages.
 <p align="start">
-  <img src="https://skillicons.dev/icons?i=java,rust,kotlin,ts,js&perline=13">
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=c,cpp,rust,zig,odin,assembly&perline=13">
+</p>
+
+### Actual real super languages.
+<p align="start">
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=html,css,tailwind,vue,react,nextjs&perline=13">
+</p>
+
+### 0 Usage languages.
+<p align="start">
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=java,go,python,ts,js,markdown&perline=13">
+</p>
+
+### Toy languages.
+<p align="start">
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=kotlin,haskell,ocaml,lua,typst,bash">
+</p>
+
+### Useless talents.
+<p align="start">
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=arch,neovim,idea,gradle,photoshop,hyprland">
 </p>
