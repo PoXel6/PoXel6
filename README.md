@@ -1,31 +1,85 @@
-My favorite hobby is reading random people's GitHub README too.
+<p>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Iosevka+Charon&duration=2000&pause=1000&color=F7F7F7&multiline=true&repeat=false&width=500&height=40&lines=Risen+from+the+depths+of+hell%2C+destined+to+write+code." alt="Typing SVG" /></a>
+</p>
+<hr>
+
+
+<p align="center">
+   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Iosevka+Charon&size=24&duration=1000&pause=1000&center=true&vCenter=true&multiline=true&width=300&height=100&lines=I+hate+when;people+do+something;like+this+in+their+GitHub." alt="Typing SVG" /></a>
+</p>
+
+ 😉 About Me
+ ---
+ ```bf
+ ++++++++++[>++++++++++<-]>+++++.
++++++++..+++.
+>++++++++[<++++>-]<.
+<+++++++++++.
+------.
+--------.
+>++++++++++[<+++++++++>-]<+.
+>++++[<+++++++>-]<.
++++++++++++.
+--------.
++++.------.
+--------.
+>++++++++++[<++++++++++>-]<+.
+```
 
 # I don't know how it works.
 
-I use Arch, BTW.
+### I use Arch, BTW.
+> Ables me to use stripe api on my socks.
+> 
+> Makes me more affectionate toward animals.
+
+### Editor wars veteran.
+> I can't exit vim.
+> 
+> I use emacs too; abuse acutally.
+> 
+> These editors are older than I am, I don't know who's editing who.
+
+### MATHoholic. (Mathing with Typst)
+> I **LOVE** math.
+> 
+> I **Hate** math.
+> 
+> I not smart enought for math.
+
+### Able to hallucinate without AI.
+> built-in feature, unfortunately.
+> 
+> Terry A. Davis reborn.
+
+### Fascinated by technology
+> I like the machine.
+> 
+> I like to make them do stuff for me.
+> 
+> But too grub-brained to understand it.
+
+### Admires complexity, hates simplicity.
+> Under 5 gizillion files with mean of 5 loc? of course yes.
+> 
+> Method names should be longer than the code inside it.
+
+### Personality traits.
+> I distrust everything except my own bad memory.
+> 
+> Gell-Manning Amnesia believer.
+> 
+> I'm Dunning my Kruger.
+> 
+> Loves shiny objects; but it's not a syndrome.
+>
+> My favorite hobby is reading random peoples' GitHub README.
 
 
-Editor wars veteran.
-
-Never was I spotted in the same room as The Batman.
-
-MATHoholic (Mathing with Typst)
-
-Able to hillucinate without AI.
-
-Fascinated by technology; Too grub brained to understand it.
-
-Gell-Mann Amnesia? that can't be right.
-
-Admires complexity, hates simplicity.
-
-Loves shiny objects; but it's not a syndrome.
-
-Scared of ladies.
+### Scared of ladies.
+> it's a bug not a feature. 😭
 
 # Stats 📊
- 
-
  
 <p align="start">
   <img src="https://github-readme-stats-fast.vercel.app/api/?username=poxel6&show_icons=true&theme=tokyonight&card_width=500" alt="My Github Stats" />
