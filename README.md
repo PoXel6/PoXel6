@@ -60,21 +60,18 @@
 > But too grub-brained to understand it.
 
 ### Admires complexity, hates simplicity.
-> Under 5 gizillion files with mean of 5 loc? of course yes.
+> Under 5 gizillion files with mean of 5 loc? Don't even call me.
+>
+> `IAbstractSingletonProxyFactoryBean.fml` lover.
 > 
 > Method names should be longer than the code inside it.
 
 ### Personality traits.
-> I distrust everything except my own bad memory.
-> 
-> Gell-Manning Amnesia believer.
+> Gell-Mann Amnesia believer.
 > 
 > I'm Dunning my Kruger.
 > 
 > Loves shiny objects; but it's not a syndrome.
->
-> My favorite hobby is reading random peoples' GitHub README.
-
 
 ### Scared of ladies.
 > it's a bug not a feature. 😭
