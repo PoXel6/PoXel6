@@ -110,6 +110,7 @@ h2 {
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.3s ease;
+	background: var(--color-background);
 }
 
 .skills-section:hover {
@@ -153,9 +154,10 @@ h2 {
 
 .language__java { color: #bB6626; background-color: rgba(175, 239, 239, 0.1); border: 1px solid #bB6626; }
 .language__kotlin { color: #8f00ff; background-color: rgba(55, 50, 61, 0.1); border: 1px solid #8f00ff; }
-.language__rust { color: #9B5624; background-color: rgba(234, 75, 46, 0.1); border: 1px solid #8B4513; }
+.language__rust { color: red; background-color: rgba(234, 75, 46, 0.1); border: 1px solid #8B4513; }
 .language__javascript { color: #f7df1e; background-color: rgba(247, 223, 30, 0.1); border: 1px solid #ffc107; }
 .language__typescript { color: #3178c6; background-color: rgba(49, 120, 198, 0.1); border: 1px solid #4a90e2; }
+.language__zig { color: yellow; background-color: rgba(200, 200, 0, 0.1); border: 1px solid yellow; }
 
 .tool__intellij { color: #5d73b6; background-color: rgba(93, 115, 182, 0.1); border: 1px solid #4a90e2; }
 .tool__neovim { color: #c678dd; background-color: rgba(198, 120, 221, 0.1); border: 1px solid var(--color-primary); }
@@ -164,4 +166,16 @@ h2 {
 .tool__linux { color: #8fbc8f; background-color: rgba(143, 188, 143, 0.1); border: 1px solid var(--color-accent-green); }
 .tool__bash { color: #6a9955; background-color: rgba(106, 153, 85, 0.1); border: 1px solid var(--color-accent-green); }
 
-.project__jlox { color: #bB6626; background-color: rgba(175, 239, 239, 0.1); border: 1px solid #bB6626; }
+.project { background-color: rgba(175, 239, 239, 0.1); }
+.project__pets {
+	color: yellow;
+	border: 1px solid yellow;
+}
+.project__jlox {
+	color: orange;
+	border: 1px solid orange;
+}
+.project__newj {
+	color: red;
+	border: 1px solid #bB6626;
+}

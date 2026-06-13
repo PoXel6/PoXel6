@@ -14,19 +14,18 @@ contacts:
 
 position: Junior Software Engineer
 
-tagline: Junior Software engineer with 2 years of experience and a strong foundation in computer science, and a natural problem-solver.  Proficient in Java, Kotlin, JavaScript/TypeScript, and Rust with a solid understanding of system architecture and design principles.
+tagline: Junior Software engineer with 2 years of experience with a strong foundation in computer science, and a natural problem-solver.  Proficient in Java, Kotlin, JavaScript/TypeScript, and Rust with a solid understanding of system architecture and design principles.
 
 jobs:
-  - position: Quality Assurance Intern
+  - position: Fake Company
     company:
-      name: CodeFix Labs
-      link: "https://codefixlabs.com/"
+      name: FakeCompany LTD
+      link: "https://msht.sh"
     product:
-      name: TestSuite Pro
-      link: https://testsuitepro.com
+      name: ThisThat
+      link: https://thisthat.com
     description:
-      - Assisted in testing software applications for functionality and usability, reporting bugs and feedback.
-      - Gained experience in automated testing frameworks to improve product quality.
+      - something
     from: "2019 Jan."
     to: "2019 Dec."
     tags:
@@ -82,35 +81,36 @@ technical_expertise:
     level: 4
   - name: Rust
     level: 3
-  - name: Git
-    level: 4
+  - name: Zig
+    level: 3
 
 skills:
   - Java
   - Kotlin
   - Rust
-  - Docker
-  - Git
-  - JavaScript/TypeScript
   - Python
-  - Bash
-  - typst
+  - JavaScript
+  - TypeScript
+  - MySQL
+  - SQLite
 
-methodology:
-  - Lean
-  - Kanban
-  - Clean Code
-  - Clean Architecture
-  - Design Thinking
-  - Test-Driven Development
-  - Performance Aware Programming
+libs:
+  - React
+  - Nextjs
+  - Tailwind
+  - JUnit
+  - Vuejs
+  - Spring Boot
+  - Ktor
+  - 
 
 tools:
+  - Git
   - GitHub
-  - NeoVim
-  - IntelliJ IDEA
+  - CI/CD
+  - Linux
+  - Docker
+  - Neovim
+  - IntelliJ
   - Gradle
   - Photoshop
-  - CUrl
-  - Postman
-  - Gnu/Linux
