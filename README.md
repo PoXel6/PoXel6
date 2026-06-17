@@ -86,7 +86,7 @@
 </p>
  
 # Languages 💻
-> Blow languages are mostly my interests or basic level familiarities; my actual usages is based on the graph above.
+> Below languages are mostly my interests or basic level familiarities; my actual usages is based on the graph above.
 
 ### Low IQ languages.
 <p align="start">
