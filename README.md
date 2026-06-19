@@ -1,12 +1,7 @@
 <p>
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Iosevka+Charon&duration=2000&pause=1000&color=F7F7F7&multiline=true&repeat=false&width=500&height=40&lines=Risen+from+the+depths+of+hell%2C+destined+to+write+code." alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Iosevka+Charon&duration=2000&pause=1000&color=F7F7F7&multiline=true&repeat=false&width=500&height=40&lines=Burned+from+cringe%2C+resurrected+to+more." alt="Typing SVG" /></a>
 </p>
 <hr>
-
-
-<p align="center">
-   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Iosevka+Charon&size=24&duration=1000&pause=1000&center=true&vCenter=true&multiline=true&width=300&height=100&lines=I+hate+when;people+do+something;like+this+in+their+GitHub." alt="Typing SVG" /></a>
-</p>
 
  About Me 😉
  ---
