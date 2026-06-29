@@ -110,6 +110,7 @@
   set page(
     margin: (x: 1.2cm, y: 1.2cm),
   )
+  v(-20pt)
   grid(
     columns: (11fr, 13fr),
     column-gutter: 1em,
@@ -124,7 +125,7 @@
     findMe(links),
   )
 
-  v(10pt)
+  v(0pt)
 
   grid(
     columns: (7fr, 4fr),
@@ -203,13 +204,13 @@
       #icon("calendar") #project.from --- #project.to #h(1fr)
       #link(project.link)[#icon("github") Personal Project]
 
-      #v(0pt)
+      #v(-5pt)
       ==== Description:
       #project.description
-      #v(0pt)
+      #v(-5pt)
       ==== Tech Stack:
       #project.stack
-      #v(8pt)
+      #v(0pt)
     ]
 
     == Objective

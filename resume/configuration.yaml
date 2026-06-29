@@ -37,6 +37,12 @@ jobs:
 objective: Seeking to advance my skills and build a strong career with a company that values innovation and creativity.
 
 projects:
+  - name: "Twitter Clone"
+    from: "July 2026"
+    to: "August 2026"
+    link: "https://github.com/PoXel6/twitter-clone.git"
+    description: "Twitter clone written in Kotlin with spring boot, frontend is powered by NextJS, Tailwindcss and Shadcn."
+    stack: "Kotlin, Spring Boot, NextJS, Typstscript, Tailwindcss, REST API"
   - name: "JLOX"
     from: "March 2026"
     to: "July 2026"
@@ -81,28 +87,34 @@ technical_expertise:
     level: 4
   - name: Rust
     level: 3
-  - name: Zig
+  - name: Go
     level: 3
+  - name: Python
+    level: 4
 
 skills:
   - Java
   - Kotlin
   - Rust
   - Python
+  - Go
   - JavaScript
   - TypeScript
   - MySQL
+  - MariaDB
+  - MongoDB
   - SQLite
 
 libs:
   - React
   - Nextjs
-  - Tailwind
+  - Tailwindcss
+  - Shadcn
   - JUnit
   - Vuejs
   - Spring Boot
   - Ktor
-  - 
+  - Exposed
 
 tools:
   - Git
