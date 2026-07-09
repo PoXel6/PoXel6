@@ -77,7 +77,7 @@
   <img src="https://github-readme-stats-fast.vercel.app/api/?username=poxel6&show_icons=true&theme=tokyonight&card_width=500" alt="My Github Stats" />
 </p>
 <p align="start">
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=poxel6&show-icons=true&layout=compact&theme=tokyonight&exclude_repo=OldCodes&hide=html,css,shell&card_width=500" alt="My Github Stats">
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=poxel6&show-icons=true&layout=compact&theme=tokyonight&exclude_repo=OldCodes,doom-one.nvim&langs_count=8&hide=html,css,shell&card_width=500" alt="My Github Stats">
 </p>
  
 # Languages 💻
