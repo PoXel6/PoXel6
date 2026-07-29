@@ -1,21 +1,3 @@
-contacts:
-  name: Amir
-  lastName: Soufi Doost
-  title: Junior Software Engineer
-  email: iampoxel6@gmail.com
-  address: "Mashhad, Iran"
-  location: Iran
-  github:
-    url: https://github.com/PoXel6
-    displayText: "github.com/poxel6"
-  exp:
-    url: https://poxel6.github.io/PoXel6
-    displayText: "2+ years experience"
-
-position: Junior Software Engineer
-
-tagline: Junior Software engineer with 2 years of experience with a strong foundation in computer science, and a natural problem-solver.  Proficient in Java, Kotlin, JavaScript/TypeScript, and Rust with a solid understanding of system architecture and design principles.
-
 jobs:
   - position: Fake Company
     company:
@@ -34,27 +16,31 @@ jobs:
       - Automation
     location: Austin, USA
 
-objective: Seeking to advance my skills and build a strong career with a company that values innovation and creativity.
-
 projects:
+  - name: "Web Server in Assembly"
+    from: "June 2026"
+    to: "July 2026"
+    link: "https://github.com/PoXel6/jlox"
+    description: "A simple web server in x86_64 Assembly with fasm assembly, aims to be minimal and fast with a small binary."
+    stack: "x86_64 Assembly, fasm, Linux Syscalls"
   - name: "Twitter Clone"
-    from: "July 2026"
-    to: "August 2026"
-    link: "https://github.com/PoXel6/twitter-clone.git"
+    from: "May 2026"
+    to: "June 2026"
+    link: "https://github.com/PoXel6/twitter-clone"
     description: "Twitter clone written in Kotlin with spring boot, frontend is powered by NextJS, Tailwindcss and Shadcn."
-    stack: "Kotlin, Spring Boot, NextJS, Typstscript, Tailwindcss, REST API"
+    stack: "Kotlin, Spring Boot, Nextjs, Typstscript, Tailwindcss, REST API"
   - name: "JLOX"
     from: "March 2026"
     to: "July 2026"
-    link: "https://github.com/PoXel6/jlox.git"
-    description: "Lox interpreter written in java. Parsing is powered by Recursive-Decent. It leverages Visitor Design Pattern and a custom meta-programming script to generate it's AST. It follows SOLID, DRY, and YAGNI principles."
-    stack: "Java, Gradle, Intellij IDEA, Meta Programming, Design Patterns, Intellij IDEA"
+    link: "https://github.com/PoXel6/jlox"
+    description: "Lox interpreter written in java. Parsing is powered by Recursive-Decent. It leverages Visitor Design Pattern and a custom meta-programming script to generate it's AST."
+    stack: "Java, Gradle, IntelliJ IDEA, Meta Programming, Design Patterns"
   - name: "NEWJ"
     from: "July 2025"
     to: "Oct 2025"
-    link: "https://github.com/PoXel6/newj.git"
+    link: "https://github.com/PoXel6/newj"
     description: "Simple CLI tool to generate Java project structure. has Gradle dependency presets for different application. currently has: Minecraft, Simple, Spring. Hydrates generated files with templates. sane and configurable defaults."
-    stack: "Rust, Cargo, NVim, Clip-rs, proc-macros, Performance Aware Programming"
+    stack: "Rust, Cargo, clap-rs, proc-macros, Performance Aware Programming"
 
 education:
   - place:
@@ -79,50 +65,98 @@ education:
 technical_expertise:
   - name: Java
     level: 5
-  - name: Kotlin
-    level: 4
-  - name: JavaScript
+  - name: JavaScript 
     level: 5
   - name: TypeScript
+    level: 5
+  - name: Kotlin
     level: 4
   - name: Rust
     level: 3
-  - name: Go
+  - name: C
     level: 3
-  - name: Python
-    level: 4
+  - name: Assembly
+    level: 2
+
+# skills:
+#   - Java
+#   - Kotlin
+#   - Rust
+#   - Go
+#   - JavaScript/TypeScript
+#   - Postgress
+#   - MySQL
+#   - MariaDB
+#   - MongoDB
+#   - SQLite
+#
+# libs:
+#   - React
+#   - Nextjs
+#   - Tailwindcss
+#   - Shadcn
+#   - Vuejs
+#   - Spring Boot
+#   - JUnit
+#   - Ktor
+#   - Exposed
+#
+# tools:
+#   - Git
+#   - GitHub
+#   - CI/CD
+#   - Linux
+#   - Docker
+#   - Neovim
+#   - IntelliJ
+#   - Gradle
+#   - Photoshop
 
 skills:
-  - Java
-  - Kotlin
-  - Rust
-  - Python
-  - Go
-  - JavaScript
-  - TypeScript
-  - MySQL
-  - MariaDB
-  - MongoDB
-  - SQLite
+  - name: Backend
+    items:
+      - Spring Boot
+      - REST APIs
+      - HTTP
+      - SQL
+      - JPA / Hibernate
+      - Auth
+      - Microservices
 
-libs:
-  - React
-  - Nextjs
-  - Tailwindcss
-  - Shadcn
-  - JUnit
-  - Vuejs
-  - Spring Boot
-  - Ktor
-  - Exposed
+  - name: Databases
+    items:
+      - PostgreSQL
+      - MySQL / MariaDB
+      - SQLite
+      - MongoDB
+      - Redis
 
-tools:
-  - Git
-  - GitHub
-  - CI/CD
-  - Linux
-  - Docker
-  - Neovim
-  - IntelliJ
-  - Gradle
-  - Photoshop
+  - name: Frontend
+    items:
+      - React
+      - Next.js
+      - Vue.js
+      - Tailwindcss
+
+  - name: Testing
+    items:
+      - JUnit
+      - Vitest
+      - Mockito
+      - Integration Testing
+
+  - name: DevOps
+    items:
+      - Linux
+      - Docker
+      - CI/CD
+      - Automation
+      - GitHub Actions
+
+  - name: Tools
+    items:
+      - Git
+      - GitHub
+      - Gradle
+      - Neovim
+      - IntelliJ IDEA
