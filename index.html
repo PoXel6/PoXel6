@@ -23,20 +23,45 @@
 				--color-purple: #c678dd;
 			}
 			
-			@keyframes fade {
-				0%, 100% {
+			@keyframes letter-in {
+				from {
 					opacity: 0;
-					transform: translateY(6px);
+					transform: translateY(4px);
 				}
 				
-				15%, 85% {
+				to {
 					opacity: 1;
 					transform: translateY(0);
 				}
 			}
 			
+			@keyframes letter-out {
+				from {
+					opacity: 1;
+					transform: translateY(0);
+				}
+				
+				to {
+					opacity: 0;
+					transform: translateY(-4px);
+				}
+			}
+			
 			.role {
-				animation: fade 3s ease-in-out infinite;
+				display: inline-block;
+				min-width: 16ch;
+			}
+			
+			.role .letter {
+				display: inline-block;
+			}
+			
+			.role .letter.in {
+				animation: letter-in 120ms ease-out forwards;
+			}
+			
+			.role .letter.out {
+				animation: letter-out 100ms ease-in forwards;
 			}
 		</style>
 	</head>
@@ -62,7 +87,6 @@
 					<span id="role"
 					      class="role min-w-32 font-mono text-blue"
 					>
-						backend developer
 					</span>
 				</div>
 
@@ -265,29 +289,88 @@
 
 		<script>
 			const roles = [
-				"backend developer",
-				"systems programmer",
-				"tool developer",
-				"game developer",
-				"language enthusiast",
+				"Backend Developer",
+				"Systems Programmer",
+				"Language Enthusiast",
+				"Tool Developer",
+				"Game Developer",
+				"OS Enthusiast",
+				"Computer Scientist"
 			];
 
 			const element = document.getElementById("role");
 
-			let index = 0;
+			let roleIndex = 0;
 
-			setInterval(() => {
-				index = (index + 1) % roles.length;
+			function typeRole(role) {
+				return new Promise(resolve => {
+					let index = 0;
 
-				element.classList.remove("role");
+					function next() {
+						if (index >= role.length) {
+							resolve();
+							return;
+						}
 
-				// Force the browser to restart the animation.
-				void element.offsetWidth;
+						const letter = document.createElement("span");
 
-				element.textContent = roles[index];
+						letter.className = "letter in";
+						letter.textContent = role[index] === " " ? "\u00A0" : role[index];
 
-				element.classList.add("role");
-			}, 3000);
+						element.appendChild(letter);
+
+						index++;
+
+						setTimeout(next, 80);
+					}
+
+					next();
+				});
+		}
+
+		function deleteRole() {
+			return new Promise(resolve => {
+				function next() {
+					const letter = element.lastElementChild;
+
+					if (!letter) {
+						resolve();
+						return;
+					}
+
+					letter.classList.remove("in");
+					letter.classList.add("out");
+
+					setTimeout(() => {
+						letter.remove();
+						next();
+					}, 100);
+			}
+
+			next();
+		});
+}
+
+async function animateRoles() {
+	while (true) {
+		const role = roles[roleIndex];
+
+		await typeRole(role);
+
+		// Keep the complete word on screen.
+		await new Promise(resolve => setTimeout(resolve, 1800));
+
+		// Delete the complete word.
+		await deleteRole();
+
+		// Small pause before typing the next one.
+		await new Promise(resolve => setTimeout(resolve, 400));
+
+		roleIndex = (roleIndex + 1) % roles.length;
+	}
+}
+
+animateRoles();
 		</script>
 	</body>
 </html>
