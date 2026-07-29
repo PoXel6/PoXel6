@@ -10,18 +10,46 @@
 		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
 		<style type="text/tailwindcss">
+
+			/*
+			* ============================================================
+			* THEME
+			*
+			* Everything visual should be tweaked here first.
+			* Change these values instead of searching through the HTML.
+			* ============================================================
+			*/
+			
 			@theme {
-				--color-bg: #282c34;
-				--color-bg-soft: #21252b;
-				--color-bg-raised: #2c313a;
-				--color-fg: #abb2bf;
-				--color-fg-bright: #d7dae0;
-				--color-fg-muted: #7f848e;
-				--color-border: #3a3f4b;
-				--color-blue: #61afef;
-				--color-green: #98c379;
-				--color-purple: #c678dd;
+				/* Backgrounds */
+				--color-bg: #0d0d0d;
+				--color-bg-soft: #121212;
+				--color-bg-raised: #181818;
+				
+				/* Text */
+				--color-fg: #a0a0a0;
+				--color-fg-bright: #d0d0d0;
+				--color-fg-muted: #5f5f5f;
+				
+				/* Borders */
+				--color-border: #252525;
+				
+				/* Accent */
+				--color-accent: #874646;
+				--color-accent-muted: #5c3535;
+				
+				/* Hover */
+				--color-hover: #dddddd;
+				
+				/* Layout */
+				--width-page: 48rem;
 			}
+			
+			/*
+			* ============================================================
+			* TYPEWRITER ANIMATION
+			* ============================================================
+			*/
 			
 			@keyframes letter-in {
 				from {
@@ -70,9 +98,12 @@
 
 		<main class="mx-auto max-w-3xl px-6 py-16 sm:py-24">
 
-			```
-			<!-- Header -->
+			<!-- =========================================================
+			 HEADER
+			 ========================================================= -->
+
 			<header class="mb-20">
+
 				<p class="mb-3 font-mono text-sm text-fg-muted">
 					poxel6
 				</p>
@@ -81,13 +112,17 @@
 					Hey, I'm Amir.
 				</h1>
 
+				<!-- Animated role -->
+
 				<div class="mt-6 flex items-center gap-2 text-lg text-fg-muted">
-					<span>I'm a</span>
+
+					<span>
+						I'm a
+					</span>
 
 					<span id="role"
-					      class="role min-w-32 font-mono text-blue"
-					>
-					</span>
+					      class="role min-w-32 font-mono text-accent"
+					></span>
 				</div>
 
 				<p class="mt-6 max-w-2xl text-base leading-8 text-fg-muted">
@@ -96,9 +131,12 @@
 					languages, developer tools, and game development.
 				</p>
 
+				<!-- Navigation -->
+
 				<nav class="mt-8 flex gap-6 text-sm">
+
 					<a href="https://github.com/poxel6"
-					   class="text-fg-muted transition hover:text-fg-bright"
+					   class="text-fg-muted transition hover:text-hover"
 					   target="_blank"
 					   rel="noopener noreferrer"
 					>
@@ -106,30 +144,37 @@
 					</a>
 
 					<a href="mailto:iampoxel6@gmail.com"
-					   class="text-fg-muted transition hover:text-fg-bright"
+					   class="text-fg-muted transition hover:text-hover"
 					>
 						Email
 					</a>
 
 					<a href="https://github.com/poxel6/PoXel6/blob/main/resume/resume.pdf"
-					   class="text-fg-muted transition hover:text-fg-bright"
+					   class="text-fg-muted transition hover:text-hover"
 					   target="_blank"
+					   rel="noopener noreferrer"
 					>
 						Resume
 					</a>
 				</nav>
 			</header>
 
-			<!-- Projects -->
+			<!-- =========================================================
+     PROJECTS
+     ========================================================= -->
+
 			<section>
 
+				<!-- Section heading -->
+
 				<div class="mb-8 flex items-baseline justify-between border-b border-border pb-3">
+
 					<h2 class="text-sm font-semibold uppercase tracking-widest text-fg-bright">
 						Projects
 					</h2>
 
 					<a href="https://github.com/poxel6?tab=repositories"
-					   class="text-sm text-fg-muted transition hover:text-fg-bright"
+					   class="text-sm text-fg-muted transition hover:text-hover"
 					   target="_blank"
 					   rel="noopener noreferrer"
 					>
@@ -137,10 +182,14 @@
 					</a>
 				</div>
 
-				<!-- Project -->
-				<article class="group border-b border-border py-8">
+				<!-- =======================================================
+       PROJECT
+       ======================================================== -->
+
+				<article class="group border-b border-border py-8 first:pt-0">
 
 					<div class="flex flex-col justify-between gap-2 sm:flex-row sm:items-baseline">
+
 						<h3 class="text-xl font-medium text-fg-bright">
 							Web Server in x86_64 Assembly
 						</h3>
@@ -157,7 +206,7 @@
 					</p>
 
 					<a href="#"
-					   class="mt-4 inline-block text-sm text-blue opacity-80 transition group-hover:opacity-100"
+					   class="mt-4 inline-block text-sm text-accent transition hover:text-hover"
 					   target="_blank"
 					   rel="noopener noreferrer"
 					>
@@ -165,10 +214,14 @@
 					</a>
 				</article>
 
-				<!-- Project -->
-				<article class="group border-b border-border py-8 first:pt-0">
+				<!-- =======================================================
+       PROJECT
+       ======================================================== -->
+
+				<article class="group border-b border-border py-8">
 
 					<div class="flex flex-col justify-between gap-2 sm:flex-row sm:items-baseline">
+
 						<h3 class="text-xl font-medium text-fg-bright">
 							Clox
 						</h3>
@@ -186,7 +239,7 @@
 					</p>
 
 					<a href="https://github.com/poxel6/clox"
-					   class="mt-4 inline-block text-sm text-blue opacity-80 transition group-hover:opacity-100"
+					   class="mt-4 inline-block text-sm text-accent transition hover:text-hover"
 					   target="_blank"
 					   rel="noopener noreferrer"
 					>
@@ -194,10 +247,14 @@
 					</a>
 				</article>
 
-				<!-- Project -->
+				<!-- =======================================================
+       PROJECT
+       ======================================================== -->
+
 				<article class="group border-b border-border py-8">
 
 					<div class="flex flex-col justify-between gap-2 sm:flex-row sm:items-baseline">
+
 						<h3 class="text-xl font-medium text-fg-bright">
 							JLOX
 						</h3>
@@ -214,7 +271,7 @@
 					</p>
 
 					<a href="https://github.com/poxel6/jlox"
-					   class="mt-4 inline-block text-sm text-blue opacity-80 transition group-hover:opacity-100"
+					   class="mt-4 inline-block text-sm text-accent transition hover:text-hover"
 					   target="_blank"
 					   rel="noopener noreferrer"
 					>
@@ -222,10 +279,14 @@
 					</a>
 				</article>
 
-				<!-- Project -->
+				<!-- =======================================================
+       PROJECT
+       ======================================================== -->
+
 				<article class="group border-b border-border py-8">
 
 					<div class="flex flex-col justify-between gap-2 sm:flex-row sm:items-baseline">
+
 						<h3 class="text-xl font-medium text-fg-bright">
 							NEWJ
 						</h3>
@@ -242,7 +303,7 @@
 					</p>
 
 					<a href="https://github.com/poxel6/newj"
-					   class="mt-4 inline-block text-sm text-blue opacity-80 transition group-hover:opacity-100"
+					   class="mt-4 inline-block text-sm text-accent transition hover:text-hover"
 					   target="_blank"
 					   rel="noopener noreferrer"
 					>
@@ -250,10 +311,14 @@
 					</a>
 				</article>
 
-				<!-- Project -->
+				<!-- =======================================================
+       PROJECT
+       ======================================================== -->
+
 				<article class="group py-8">
 
 					<div class="flex flex-col justify-between gap-2 sm:flex-row sm:items-baseline">
+
 						<h3 class="text-xl font-medium text-fg-bright">
 							Twitter Clone
 						</h3>
@@ -269,7 +334,7 @@
 					</p>
 
 					<a href="https://github.com/poxel6/twitter-clone"
-					   class="mt-4 inline-block text-sm text-blue opacity-80 transition group-hover:opacity-100"
+					   class="mt-4 inline-block text-sm text-accent transition hover:text-hover"
 					   target="_blank"
 					   rel="noopener noreferrer"
 					>
@@ -278,16 +343,28 @@
 				</article>
 			</section>
 
-			<!-- Footer -->
+			<!-- =========================================================
+     FOOTER
+     ========================================================= -->
+
 			<footer class="mt-20 border-t border-border pt-6 text-sm text-fg-muted">
+
 				<p>
-					Built with HTML, Tailwind, and an unreasonable amount of curiosity.
+					I build things to understand them.
 				</p>
 			</footer>
-			```
 		</main>
 
+		<!-- ===========================================================
+       TYPEWRITER
+       ============================================================ -->
+
 		<script>
+
+			/*
+			* Add, remove, or reorder titles here.
+			*/
+
 			const roles = [
 				"Backend Developer",
 				"Systems Programmer",
@@ -303,10 +380,13 @@
 			let roleIndex = 0;
 
 			function typeRole(role) {
+
 				return new Promise(resolve => {
+
 					let index = 0;
 
 					function next() {
+
 						if (index >= role.length) {
 							resolve();
 							return;
@@ -315,22 +395,32 @@
 						const letter = document.createElement("span");
 
 						letter.className = "letter in";
-						letter.textContent = role[index] === " " ? "\u00A0" : role[index];
+
+						letter.textContent =
+						role[index] === " "
+						? "\u00A0"
+						: role[index];
 
 						element.appendChild(letter);
 
 						index++;
 
 						setTimeout(next, 80);
+
 					}
 
 					next();
+
 				});
+
 		}
 
 		function deleteRole() {
+
 			return new Promise(resolve => {
+
 				function next() {
+
 					const letter = element.lastElementChild;
 
 					if (!letter) {
@@ -339,35 +429,56 @@
 					}
 
 					letter.classList.remove("in");
+
 					letter.classList.add("out");
 
 					setTimeout(() => {
+
 						letter.remove();
+
 						next();
+
 					}, 100);
+
 			}
 
 			next();
+
 		});
+
 }
 
 async function animateRoles() {
+
 	while (true) {
+
 		const role = roles[roleIndex];
+
+		// Type the title.
 
 		await typeRole(role);
 
-		// Keep the complete word on screen.
-		await new Promise(resolve => setTimeout(resolve, 1800));
+		// Keep it visible.
 
-		// Delete the complete word.
+		await new Promise(resolve =>
+			setTimeout(resolve, 1800)
+		);
+
+		// Delete the title.
+
 		await deleteRole();
 
-		// Small pause before typing the next one.
-		await new Promise(resolve => setTimeout(resolve, 400));
+		// Pause before the next title.
 
-		roleIndex = (roleIndex + 1) % roles.length;
+		await new Promise(resolve =>
+			setTimeout(resolve, 400)
+		);
+
+		roleIndex =
+		(roleIndex + 1) % roles.length;
+
 	}
+
 }
 
 animateRoles();
