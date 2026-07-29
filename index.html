@@ -1,72 +1,293 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PoXel6 | Portfolio</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <main class="container">
-        <header class="profile-info">
-            <h1>Hello, there!</h1>
-            <p class="tagline">I'm a Software Engineer | I Build robust and elegant solutions.</p>
-        </header>
+		<title>PoXel6 — Software Engineer</title>
 
-        <section class="skills-section">
-            <h2>Technical Expertise</h2>
-            
-            <div class="skill-group languages-container">
-                <h3>Languages</h3>
-                <div class="language-list">
-                    <span class="language__java">Java</span>
-                    <span class="language__kotlin">Kotlin</span>
-                    <span class="language__rust">Rust</span>
-                    <span class="language__typescript">TypeScript</span>
-                    <span class="language__javascript">JavaScript</span>
-                    <span class="language__zig">Zig</span>
-                </div>
-            </div>
+		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-            <div class="skill-group tools-container">
-                <h3>Tools & Technologies</h3>
-                <div class="tool-list">
-                    <span class="tool__intellij">IntelliJ IDEA</span>
-                    <span class="tool__neovim">Neovim</span>
-                    <span class="tool__git">Git</span>
-                    <span class="tool__github">GitHub</span>
-                    <span class="tool__linux">Linux</span>
-                    <span class="tool__bash">Bash Scripting</span>
-                </div>
-            </div>
+		<style type="text/tailwindcss">
+			@theme {
+				--color-bg: #282c34;
+				--color-bg-soft: #21252b;
+				--color-bg-raised: #2c313a;
+				--color-fg: #abb2bf;
+				--color-fg-bright: #d7dae0;
+				--color-fg-muted: #7f848e;
+				--color-border: #3a3f4b;
+				--color-blue: #61afef;
+				--color-green: #98c379;
+				--color-purple: #c678dd;
+			}
+			
+			@keyframes fade {
+				0%, 100% {
+					opacity: 0;
+					transform: translateY(6px);
+				}
+				
+				15%, 85% {
+					opacity: 1;
+					transform: translateY(0);
+				}
+			}
+			
+			.role {
+				animation: fade 3s ease-in-out infinite;
+			}
+		</style>
+	</head>
 
-            <div class="skill-group projects-container">
-                <h3>Projects</h3>
-                <div class="project-list">
-                    <span class="project project__pets">
-                        <a href="https://github.com/desktop-pets/pets" target="_blank"> PETS </a>
-                    </span>
-                    <span class="project project__jlox">
-                        <a href="http://github.com/poxel6/jlox" target="_blank"> JLOX </a>
-                    </span>
-                    <span class="project project__newj">
-                        <a href="http://github.com/poxel6/newj" target="_blank"> NEWJ </a>
-                    </span>
-                </div>
-            </div>
-        </section>
+	<body class="min-h-screen bg-bg text-fg antialiased">
 
+		<main class="mx-auto max-w-3xl px-6 py-16 sm:py-24">
 
-        <section class="contact-links">
-            <div class="link-group">
-                <a href="https://github.com/poxel6/" target="_blank" aria-label="GitHub Profile">GitHub</a>
-                <a href="mailto:iampoxel6@gmail.com" aria-label="Email Address">Email</a>
-                <a href="https://github.com/poxel6/poxel6/resume/resume.pdf" target="_blank" aria-label="View Resume PDF">Resume</a>
-            </div>
-        </section>
-        
-    </main>
-</body>
+			```
+			<!-- Header -->
+			<header class="mb-20">
+				<p class="mb-3 font-mono text-sm text-fg-muted">
+					poxel6
+				</p>
+
+				<h1 class="text-4xl font-semibold tracking-tight text-fg-bright sm:text-5xl">
+					Hey, I'm Amir.
+				</h1>
+
+				<div class="mt-6 flex items-center gap-2 text-lg text-fg-muted">
+					<span>I'm a</span>
+
+					<span id="role"
+					      class="role min-w-32 font-mono text-blue"
+					>
+						backend developer
+					</span>
+				</div>
+
+				<p class="mt-6 max-w-2xl text-base leading-8 text-fg-muted">
+					I like understanding how things work and building them from the
+					ground up. I'm interested in systems programming, programming
+					languages, developer tools, and game development.
+				</p>
+
+				<nav class="mt-8 flex gap-6 text-sm">
+					<a href="https://github.com/poxel6"
+					   class="text-fg-muted transition hover:text-fg-bright"
+					   target="_blank"
+					   rel="noopener noreferrer"
+					>
+						GitHub
+					</a>
+
+					<a href="mailto:iampoxel6@gmail.com"
+					   class="text-fg-muted transition hover:text-fg-bright"
+					>
+						Email
+					</a>
+
+					<a href="https://github.com/poxel6/PoXel6/blob/main/resume/resume.pdf"
+					   class="text-fg-muted transition hover:text-fg-bright"
+					   target="_blank"
+					>
+						Resume
+					</a>
+				</nav>
+			</header>
+
+			<!-- Projects -->
+			<section>
+
+				<div class="mb-8 flex items-baseline justify-between border-b border-border pb-3">
+					<h2 class="text-sm font-semibold uppercase tracking-widest text-fg-bright">
+						Projects
+					</h2>
+
+					<a href="https://github.com/poxel6?tab=repositories"
+					   class="text-sm text-fg-muted transition hover:text-fg-bright"
+					   target="_blank"
+					   rel="noopener noreferrer"
+					>
+						All projects →
+					</a>
+				</div>
+
+				<!-- Project -->
+				<article class="group border-b border-border py-8">
+
+					<div class="flex flex-col justify-between gap-2 sm:flex-row sm:items-baseline">
+						<h3 class="text-xl font-medium text-fg-bright">
+							Web Server in x86_64 Assembly
+						</h3>
+
+						<span class="font-mono text-xs text-fg-muted">
+							x86-64 Assembly
+						</span>
+					</div>
+
+					<p class="mt-3 max-w-2xl leading-7 text-fg-muted">
+						A web server written directly in x86-64 assembly on Linux. Built to
+						explore system calls, sockets, memory, and the fundamentals of
+						networking without relying on a high-level runtime.
+					</p>
+
+					<a href="#"
+					   class="mt-4 inline-block text-sm text-blue opacity-80 transition group-hover:opacity-100"
+					   target="_blank"
+					   rel="noopener noreferrer"
+					>
+						View source →
+					</a>
+				</article>
+
+				<!-- Project -->
+				<article class="group border-b border-border py-8 first:pt-0">
+
+					<div class="flex flex-col justify-between gap-2 sm:flex-row sm:items-baseline">
+						<h3 class="text-xl font-medium text-fg-bright">
+							Clox
+						</h3>
+
+						<span class="font-mono text-xs text-fg-muted">
+							C
+						</span>
+					</div>
+
+					<p class="mt-3 max-w-2xl leading-7 text-fg-muted">
+						A bytecode compiler and virtual machine for the Lox programming
+						language. Built from scratch while learning about lexical analysis,
+						parsing, bytecode compilation, virtual machines, and memory
+						management.
+					</p>
+
+					<a href="https://github.com/poxel6/clox"
+					   class="mt-4 inline-block text-sm text-blue opacity-80 transition group-hover:opacity-100"
+					   target="_blank"
+					   rel="noopener noreferrer"
+					>
+						View source →
+					</a>
+				</article>
+
+				<!-- Project -->
+				<article class="group border-b border-border py-8">
+
+					<div class="flex flex-col justify-between gap-2 sm:flex-row sm:items-baseline">
+						<h3 class="text-xl font-medium text-fg-bright">
+							JLOX
+						</h3>
+
+						<span class="font-mono text-xs text-fg-muted">
+							Java
+						</span>
+					</div>
+
+					<p class="mt-3 max-w-2xl leading-7 text-fg-muted">
+						An interpreter for the Lox programming language. Implements
+						recursive-descent parsing, AST generation, and tree-walking
+						interpretation, with tooling to generate parts of the AST.
+					</p>
+
+					<a href="https://github.com/poxel6/jlox"
+					   class="mt-4 inline-block text-sm text-blue opacity-80 transition group-hover:opacity-100"
+					   target="_blank"
+					   rel="noopener noreferrer"
+					>
+						View source →
+					</a>
+				</article>
+
+				<!-- Project -->
+				<article class="group border-b border-border py-8">
+
+					<div class="flex flex-col justify-between gap-2 sm:flex-row sm:items-baseline">
+						<h3 class="text-xl font-medium text-fg-bright">
+							NEWJ
+						</h3>
+
+						<span class="font-mono text-xs text-fg-muted">
+							Rust
+						</span>
+					</div>
+
+					<p class="mt-3 max-w-2xl leading-7 text-fg-muted">
+						A CLI tool for generating Java projects with configurable project
+						templates and Gradle dependency presets. Built to make starting
+						small Java projects fast and repeatable.
+					</p>
+
+					<a href="https://github.com/poxel6/newj"
+					   class="mt-4 inline-block text-sm text-blue opacity-80 transition group-hover:opacity-100"
+					   target="_blank"
+					   rel="noopener noreferrer"
+					>
+						View source →
+					</a>
+				</article>
+
+				<!-- Project -->
+				<article class="group py-8">
+
+					<div class="flex flex-col justify-between gap-2 sm:flex-row sm:items-baseline">
+						<h3 class="text-xl font-medium text-fg-bright">
+							Twitter Clone
+						</h3>
+
+						<span class="font-mono text-xs text-fg-muted">
+							Kotlin · Spring Boot · Next.js
+						</span>
+					</div>
+
+					<p class="mt-3 max-w-2xl leading-7 text-fg-muted">
+						A full-stack social platform built to explore backend development
+						with Kotlin and Spring Boot alongside a modern Next.js frontend.
+					</p>
+
+					<a href="https://github.com/poxel6/twitter-clone"
+					   class="mt-4 inline-block text-sm text-blue opacity-80 transition group-hover:opacity-100"
+					   target="_blank"
+					   rel="noopener noreferrer"
+					>
+						View source →
+					</a>
+				</article>
+			</section>
+
+			<!-- Footer -->
+			<footer class="mt-20 border-t border-border pt-6 text-sm text-fg-muted">
+				<p>
+					Built with HTML, Tailwind, and an unreasonable amount of curiosity.
+				</p>
+			</footer>
+			```
+		</main>
+
+		<script>
+			const roles = [
+				"backend developer",
+				"systems programmer",
+				"tool developer",
+				"game developer",
+				"language enthusiast",
+			];
+
+			const element = document.getElementById("role");
+
+			let index = 0;
+
+			setInterval(() => {
+				index = (index + 1) % roles.length;
+
+				element.classList.remove("role");
+
+				// Force the browser to restart the animation.
+				void element.offsetWidth;
+
+				element.textContent = roles[index];
+
+				element.classList.add("role");
+			}, 3000);
+		</script>
+	</body>
 </html>
-

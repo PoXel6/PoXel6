@@ -11,6 +11,10 @@
 #let email = "iampoxel6@gmail.com"
 #let location = "Mashhad, Iran"
 #let exp = "2+ years experience"
+#let website = (
+  url: "https://poxel6.github.io/PoXel6/",
+  displayText: "Portfolio - GitHub Page",
+)
 #let github = (
   url: "https://github.com/PoXel6",
   displayText: "github.com/poxel6",
@@ -32,7 +36,9 @@
   }
 }
 
-#let make(services) = {
+#let findMe(services) = {
+  set text(11pt)
+  let icon = icon.with(shift: 1pt)
   let (email, website, github, location) = services
   let link = service => link(service.link)[
     #icon(service.name) #service.display
@@ -55,12 +61,6 @@
       ],
     ),
   )
-}
-
-#let findMe(services) = {
-  set text(11pt)
-  let icon = icon.with(shift: 1pt)
-  make(services)
 }
 
 #let max_rating = 5
@@ -150,20 +150,21 @@
   columns: (11fr, 13fr),
   column-gutter: 1em,
 
-  box()[
+  box(width: 120%)[
     = Amir
     #v(-17pt)
     = Soofy Doost
     #v(-13pt)
-    #text(16pt, weight: "medium")[
+    #text(18pt, weight: "medium")[
       Software Engineer
     ]
+    with +2 years of experience.
     #v(15pt)
   ],
 
   findMe((
     (name: "email", link: "mailto:" + email, display: email),
-    (name: "exp", link: github.url, display: exp),
+    (name: "website", link: website.url, display: website.displayText),
     (name: "github", link: github.url, display: github.displayText),
     (name: "location", link: "map.google.com", display: location),
   )),
