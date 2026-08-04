@@ -20,27 +20,56 @@ projects:
   - name: "Web Server in Assembly"
     from: "June 2026"
     to: "July 2026"
-    link: "https://github.com/PoXel6/jlox"
+    link: "https://github.com/PoXel6/webserver-in-assembly"
     description: "A simple web server in x86_64 Assembly with fasm assembly, aims to be minimal and fast with a small binary."
     stack: "x86_64 Assembly, fasm, Linux Syscalls"
+
   - name: "Twitter Clone"
     from: "May 2026"
     to: "June 2026"
     link: "https://github.com/PoXel6/twitter-clone"
     description: "Twitter clone written in Kotlin with spring boot, frontend is powered by NextJS, Tailwindcss and Shadcn."
     stack: "Kotlin, Spring Boot, Nextjs, Typstscript, Tailwindcss, REST API"
-  - name: "JLOX"
+
+  - name: "JLox"
     from: "March 2026"
     to: "July 2026"
     link: "https://github.com/PoXel6/jlox"
     description: "Lox interpreter written in java. Parsing is powered by Recursive-Decent. It leverages Visitor Design Pattern and a custom meta-programming script to generate it's AST."
     stack: "Java, Gradle, IntelliJ IDEA, Meta Programming, Design Patterns"
+
+  - name: "CLox"
+    from: "March 2026"
+    to: "July 2026"
+    link: "https://github.com/PoXel6/clox"
+    description: "Lox interpreter/compiler writtein in C for high performance.
+    Parsing is powered by a custom PratParser. It is a VM based and efficient
+    scripting language."
+    stack: "C, neovim, emacs, Makefile, GnuMake, Valgrind, Asan, GDB, gf2"
+
   - name: "NEWJ"
     from: "July 2025"
     to: "Oct 2025"
     link: "https://github.com/PoXel6/newj"
     description: "Simple CLI tool to generate Java project structure. has Gradle dependency presets for different application. currently has: Minecraft, Simple, Spring. Hydrates generated files with templates. sane and configurable defaults."
     stack: "Rust, Cargo, clap-rs, proc-macros, Performance Aware Programming"
+
+  - name: "Snake Game"
+    from: "July 2024"
+    to: "July 2024"
+    link: "https://github.com/poxel6/SnakeGame-Java"
+    description: "Classic snake game in java. Software render and minimalist.
+    Uses Custom sprites for apple and the snake. Snake color changes dynamicly
+    based on it's size."
+    stack: "Java, IntelliJ, Unit Test, JUnit, OOP, Design Patterns"
+
+  - name: "Tic Tac Toe"
+    from: "Feb 2024"
+    to: "Feb 2024"
+    link: "https://github.com/poxel6/TicTacToe-Java"
+    description: "Simple TicTacToe Game. Very basic and early in my programming
+    journey. First project to ever start and finish on my own."
+    stack: "Java, IntelliJ"
 
 education:
   - place:
@@ -72,45 +101,23 @@ technical_expertise:
   - name: Kotlin
     level: 4
   - name: Rust
-    level: 3
+    level: 4
   - name: C
-    level: 3
+    level: 5
   - name: Assembly
-    level: 2
-
-# skills:
-#   - Java
-#   - Kotlin
-#   - Rust
-#   - Go
-#   - JavaScript/TypeScript
-#   - Postgress
-#   - MySQL
-#   - MariaDB
-#   - MongoDB
-#   - SQLite
-#
-# libs:
-#   - React
-#   - Nextjs
-#   - Tailwindcss
-#   - Shadcn
-#   - Vuejs
-#   - Spring Boot
-#   - JUnit
-#   - Ktor
-#   - Exposed
-#
-# tools:
-#   - Git
-#   - GitHub
-#   - CI/CD
-#   - Linux
-#   - Docker
-#   - Neovim
-#   - IntelliJ
-#   - Gradle
-#   - Photoshop
+    level: 3
+  - name: OOP
+    level: 4
+  - name: Clean Code
+    level: 3
+  - name: Rest API
+    level: 4
+  - name: GCC/Clang
+    level: 4
+  - name: GDB/Gf2
+    level: 4
+  - name: Make/Cmake
+    level: 3
 
 skills:
   - name: Backend

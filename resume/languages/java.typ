@@ -1,13 +1,13 @@
-#import "template.typ": resume
+#import "../template.typ": resume
 
 #set text(font: "Inter Display")
 #set page(margin: 0.3cm)
 
 #let projects = (
-  "Web Server in Assembly",
+  "Snake Game",
   "Twitter Clone",
-  "JLOX",
-  "NEWJ",
+  "JLox",
+  "Tic Tac Toe",
 )
 
 #let skills = (
@@ -28,20 +28,11 @@
     name: "Databases",
     items: (
       "PostgreSQL",
-      "MySQL / MariaDB",
       "SQLite",
+      "MySQL",
+      "MariaDB",
       "MongoDB",
       "Redis",
-    ),
-  ),
-
-  (
-    name: "Frontend",
-    items: (
-      "React",
-      "Next.js",
-      "Vue.js",
-      "Tailwindcss",
     ),
   ),
 
@@ -49,20 +40,9 @@
     name: "Testing",
     items: (
       "JUnit",
-      "Vitest",
       "Mockito",
       "Integration Testing",
-    ),
-  ),
-
-  (
-    name: "DevOps",
-    items: (
-      "Linux",
-      "Docker",
-      "CI/CD",
-      "Automation",
-      "GitHub Actions",
+      "E2E Testing",
     ),
   ),
 
@@ -80,12 +60,10 @@
 
 #let technical_expertise = (
   "Java",
-  "JavaScript",
-  "TypeScript",
   "Kotlin",
-  "Rust",
-  "C",
-  "Assembly",
+  "OOP",
+  "Clean Code",
+  "Rest API",
 )
 
 #show: doc => resume(
